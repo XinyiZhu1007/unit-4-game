@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Naruto RPG Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-style1" id="header">Naruto RPG Game</div>
+
+        <div class="content-style2" id="all-characters">Avaliable Characters
+            <div class="clearfix characters-holder">
+                <div class="char" id="0">
+                    <div class="char-name">Uzumaki Naruto</div>
+                    <img class="char-img">
+                    <div class="char-attackPoint">HP: <span id="HP">100</span></div>
+                </div>
+                <div class="char" id="1">
+                    <div class="char-name">Uchiha Sasuske</div>
+                    <img class="char-img">
+                    <div class="char-attackPoint">HP: <span id="HP">120</span></div>
+                </div>
+                <div class="char" id="2">                    
+                    <div class="char-name">Haruno Sakura</div>
+                    <img class="char-img">
+                    <div class="char-attackPoint">HP: <span id="HP">160</span></div>                   
+                </div>
+            </div>
+        </div>
+        <div class="content-style2" id="enemies-alive">Enemies Avaliable to Attack
+            <div class="clearfix characters-holder" id="enemies-alive-holder"></div>
+        </div>
+        <div class="content-style2" id="fight-option">Fight Options
+            <button id="btn-attack">Attack!</button>
+        </div>
+        <div class="content-style2" id="enemies-dead">Enemies Defeated
+            <div class="clearfix characters-holder"></div>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>
+    
+</body>
+</html>
